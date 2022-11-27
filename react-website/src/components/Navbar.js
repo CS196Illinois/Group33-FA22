@@ -1,13 +1,18 @@
-import React from 'react'
-import logo from '../assets/apt4u_logo.png'
+import React from 'react';
+import logo from '../assets/apt4u_logo.png';
+import {Link} from 'react-router-dom';
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (
-    <div classname="navbar">
+    <div className="navbar">
         <div className="leftSide">
             <img src={logo}/>
         </div>
-        <div className="rightSide"></div>
+        <div className="rightSide">
+            <Link to="/"> Home </Link>
+            <Link to="/about"> About Us </Link>
+        </div>
     </div>
   )
 }
