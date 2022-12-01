@@ -8,7 +8,7 @@ function About() {
       <div className="aboutTop" style={{  backgroundImage: `url(${campustown})`}}>asdf</div>
       <div className="aboutBottom">
         <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>At apt4U, our primary goal is to help students find apartments that meet their needs and wants, while being in their price range. Through our services, users will be able to interact with our prediction models to understand the estimated prices of apartments across campus for years to come. Moreover, we will be providing a user preference system that recommends apartments based on the users responses as the service recommends sample apartments that meet their specificed criteria. Overall, we are a group of driven students ready to make a difference throughout Champaign-Urbana through our experience and passion in computer science.</p>
       </div>
     </div>
   )
