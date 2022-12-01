@@ -109,7 +109,7 @@ function PredictionPage() {
 
   return (
     <div className='prediction'>
-        <h1 class="aptTitle">Apartments</h1>
+        <h1 class="aptTitle">Browse Apartments</h1>
         {/* <div className="apartmentlist">
             {ApartmentList.map((MenuItem, key) => {
                 return (

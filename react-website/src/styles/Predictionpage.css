@@ -1,3 +1,18 @@
+.prediction {
+  background-color: #ebe6e4;
+}
+
+.prediction h1 {
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  height: 30px;
+  font-weight: bold;
+  color: black;
+  font-style: italic;
+  margin-top: 3rem;
+}
+
 .menu {
     width: 100%;
     height: auto;
@@ -6,6 +21,7 @@
     align-items: center;
     flex-direction: column;
   }
+
   .menu .menuTitle {
     font-family: cursive;
     font-size: 60px;

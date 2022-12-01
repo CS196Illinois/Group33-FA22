@@ -2,6 +2,7 @@
     width: 100%;
     height: 90vh;
     display: flex;
+    background-color: #ebe6e4;
   }
   
   .contact .leftSide {
@@ -26,6 +27,7 @@
     font-weight: 10;
     font-size: 50px;
     margin-left: 30px;
+    margin-right: 10px;
   }
   
   form {
@@ -34,6 +36,7 @@
     width: auto;
     height: auto;
     padding: 30px;
+    margin-top: -30px;
   }
   
   form input {
@@ -42,6 +45,7 @@
     border: none;
     border-bottom: 1px solid #121619;
     color: black;
+    background-color: #ebe6e4;
   }
   
   form textarea {
@@ -51,11 +55,13 @@
     border: none;
     border-bottom: 1px solid #121619;
     color: black;
+    background-color: #ebe6e4;
   }
   input::placeholder,
   textarea::placeholder {
-    font-weight: bold;
-    color: black;
+    font-weight: lighter;
+    font-style: italic;
+    color: #2b2b2b;
     font-family: Arial, Helvetica, sans-serif;
   }
   form input:focus,
@@ -65,7 +71,7 @@
   
   form label {
     margin-top: 15px;
-    color: grey;
+    color: black;
   }
   
   form button {
@@ -77,5 +83,12 @@
     color: whitesmoke;
     font-size: 15px;
     cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+  }
+
+  form button:hover {
+    transition: all 0.3s ease 0s;
+    background-color: #424242;
   }
   
