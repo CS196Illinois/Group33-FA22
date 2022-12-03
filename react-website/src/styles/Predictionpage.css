@@ -64,7 +64,30 @@
   .menuItem p {
     margin-left: 20px;
   }
-  
+
+  .button {
+    color: black;
+    border: 2px solid black;
+    border-radius: 1px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #ebe6e4;
+    height: 26px;
+    width: 110px;
+    transition: all 0.2s ease 0s;
+  }
+
+  .button:hover {
+    background-color: black;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    color: white;
+  }
+
+  .title {
+    font-weight: bold;
+  }
+
   @media only screen and (max-width: 1300px) {
     .menuList {
       grid-template-columns: 1fr 1fr;
@@ -75,19 +98,4 @@
     .menuList {
       grid-template-columns: 1fr;
     }
-  }
-
-  .button {
-    background-color: white;
-    color: #040404;
-    margin-bottom: 10px;
-  }
-
-  .button:hover {
-    background-color: rgb(1, 1, 1);
-    color: #ffffff;
-  }
-
-  .title {
-    font-weight: bold;
   }
