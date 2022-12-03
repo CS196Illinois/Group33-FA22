@@ -125,9 +125,9 @@ function PredictionPage() {
         </div> */}
         <div class="scrolling-wrapper">
             <div class="card">
-                <p>Octave</p>
-                <button onClick={()=>setShowOctave4(!showOctave4)} id="octave4">4 Bedroom</button>
-                <p></p>
+                <p class="title">Octave: 210 S. 4th</p>
+                <button class="button" onClick={()=>setShowOctave4(!showOctave4)} id="octave4">4 Bedroom</button>
+                <p class="title"></p>
                 <img src={Octave} class="image" alt="Octave"></img>
                 {
                     showOctave4?<table id="octave4T" class="styled-table">
@@ -138,6 +138,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$870.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$903.67</td>
@@ -155,11 +159,11 @@ function PredictionPage() {
                 }
             </div>
             <div class="card">
-                <p>309 Apartments</p>
-                <button onClick={()=>setShowthreeOneNine2(!showthreeOneNine2)} id="threeOneNine2">2 Bedroom</button>
-                <p></p>
-                <button onClick={()=>setShowthreeOneNine4(!showthreeOneNine4)} id="threeOneNine4">4 Bedroom</button>
-                <p></p>
+                <p class="title">309 E. Green</p>
+                <button class="button" onClick={()=>setShowthreeOneNine2(!showthreeOneNine2)} id="threeOneNine2">2 Bedroom</button>
+                <p class="title"></p>
+                <button class="button" onClick={()=>setShowthreeOneNine4(!showthreeOneNine4)} id="threeOneNine4">4 Bedroom</button>
+                <p class="title"></p>
                 <img src={threeOneNine} class="image" alt="309"></img>
                 {
                     showthreeOneNine2?<table id="threeOneNine2T" class="styled-table">
@@ -170,6 +174,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$1109.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$1143.23</td>
@@ -195,6 +203,10 @@ function PredictionPage() {
                         </thead>
                         <tbody>
                             <tr>
+                                <td>2022</td>
+                                <td>$949.00</td>
+                            </tr>
+                            <tr>
                                 <td>2023</td>
                                 <td>$978.11</td>
                             </tr>
@@ -212,18 +224,18 @@ function PredictionPage() {
             </div>
             {/* Data Issue */}
             {/* <div class="card">
-            <p>310 Burnham Apartments</p>
-                <p>Coming Soon...</p>
+            <p class="title">310 Burnham Apartments</p>
+                <p class="title">Coming Soon...</p>
                 <img src={threeTen} class="image" alt="310"></img>
             </div> */}
             <div class="card">
-            <p>HERE</p>
-                <button onClick={()=>setHere2(!here2)} id="here2">2 Bedroom</button>
-                <p></p>
-                <button onClick={()=>setHere42(!here42)} id="here4">4 Bed / 2 Bath</button>
-                <p></p>
-                <button onClick={()=>setHere44(!here44)} id="here4">4 Bed / 4 Bath</button>
-                <p></p>
+            <p class="title">HERE: 308 E Green</p>
+                <button class="button" onClick={()=>setHere2(!here2)} id="here2">2 Bedroom</button>
+                <p class="title"></p>
+                <button class="button" onClick={()=>setHere42(!here42)} id="here4">4 Bed / 2 Bath</button>
+                <p class="title"></p>
+                <button class="button" onClick={()=>setHere44(!here44)} id="here4">4 Bed / 4 Bath</button>
+                <p class="title"></p>
                 <img src={HERE} class="image" alt="HERE"></img>
                 {
                     here2?<table id="here2T" class="styled-table">
@@ -234,6 +246,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$1329.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$1369.99</td>
@@ -259,6 +275,10 @@ function PredictionPage() {
                         </thead>
                         <tbody>
                             <tr>
+                                <td>2022</td>
+                                <td>$999.00</td>
+                            </tr>
+                            <tr>
                                 <td>2023</td>
                                 <td>$1029.40</td>
                             </tr>
@@ -283,6 +303,10 @@ function PredictionPage() {
                         </thead>
                         <tbody>
                             <tr>
+                                <td>2022</td>
+                                <td>$1079.00</td>
+                            </tr>
+                            <tr>
                                 <td>2023</td>
                                 <td>$1112.37</td>
                             </tr>
@@ -300,20 +324,20 @@ function PredictionPage() {
             </div>
             {/* Data Issue */}
             {/* <div class="card">
-            <p>HUB</p>
-            <p>Coming Soon...</p>
+            <p class="title">HUB</p>
+            <p class="title">Coming Soon...</p>
                 <img src={HUB} class="image" alt="HUB"></img>
             </div> */}
 {/* Finish Below */}
 
             <div class="card">
-            <p>212 East</p>
-                <button onClick={()=>setTwoOneTwo2(!twoOneTwo2)}>2 Bedroom</button>
-                <p></p>
-                <button onClick={()=>setTwoOneTwo3(!twoOneTwo3)}>3 Bedroom</button>
-                <p></p>
-                <button onClick={()=>setTwoOneTwo4(!twoOneTwo4)}>4 Bedroom</button>
-                <p></p>
+            <p class="title">212 E. Green</p>
+                <button class="button" onClick={()=>setTwoOneTwo2(!twoOneTwo2)}>2 Bedroom</button>
+                <p class="title"></p>
+                <button class="button" onClick={()=>setTwoOneTwo3(!twoOneTwo3)}>3 Bedroom</button>
+                <p class="title"></p>
+                <button class="button" onClick={()=>setTwoOneTwo4(!twoOneTwo4)}>4 Bedroom</button>
+                <p class="title"></p>
                 <img src={twoTwelve} class="image" ></img>
                 {
                     twoOneTwo2?<table class="styled-table">
@@ -325,8 +349,12 @@ function PredictionPage() {
                         </thead>
                         <tbody>
                             <tr>
+                                <td>2022</td>
+                                <td>$1000.00</td>
+                            </tr>
+                            <tr>
                                 <td>2023</td>
-                                <td>1032.16</td>
+                                <td>$1032.16</td>
                             </tr>
                             <tr>
                                 <td>2024</td>
@@ -348,6 +376,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$949.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$978.12</td>
@@ -373,6 +405,10 @@ function PredictionPage() {
                         </thead>
                         <tbody>
                             <tr>
+                                <td>2022</td>
+                                <td>$810.00</td>
+                            </tr>
+                            <tr>
                                 <td>2023</td>
                                 <td>$853.33</td>
                             </tr>
@@ -389,13 +425,13 @@ function PredictionPage() {
                 }       
             </div>
             <div class="card">
-            <p>101</p>
-                <button onClick={()=>set1012(!oneZeroOne2)}>2 Bedroom</button>
-                <p></p>
-                <button onClick={()=>set1013(!oneZeroOne3)}>3 Bedroom</button>
-                <p></p>
-                <button onClick={()=>set1014(!oneZeroOne4)}>4 Bedroom</button>
-                <p></p>
+            <p class="title">101 E. Green</p>
+                <button class="button" onClick={()=>set1012(!oneZeroOne2)}>2 Bedroom</button>
+                <p class="title"></p>
+                <button class="button" onClick={()=>set1013(!oneZeroOne3)}>3 Bedroom</button>
+                <p class="title"></p>
+                <button class="button" onClick={()=>set1014(!oneZeroOne4)}>4 Bedroom</button>
+                <p class="title"></p>
                 <img src={oneZeroOne} class="image" ></img>
                 {
                     oneZeroOne2?<table class="styled-table">
@@ -406,6 +442,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$594.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$616.39</td>
@@ -431,6 +471,10 @@ function PredictionPage() {
                         </thead>
                         <tbody>
                             <tr>
+                                <td>2022</td>
+                                <td>$394.00</td>
+                            </tr>
+                            <tr>
                                 <td>2023</td>
                                 <td>$411.17</td>
                             </tr>
@@ -455,6 +499,10 @@ function PredictionPage() {
                         </thead>
                         <tbody>
                             <tr>
+                                <td>2022</td>
+                                <td>$414.00</td>
+                            </tr>
+                            <tr>
                                 <td>2023</td>
                                 <td>$432.12</td>
                             </tr>
@@ -472,21 +520,21 @@ function PredictionPage() {
             </div>
             {/* Data Issue */}
             {/* <div class="card">
-            <p>102</p>
+            <p class="title">102</p>
                 <img src={oneZeroTwo} class="image" ></img>
             </div>
             <div class="card">
-            <p>105</p>
+            <p class="title">105</p>
                 <img src={oneZeroFive} class="image" ></img>
             </div>
             <div class="card">
-            <p>107</p>
+            <p class="title">107</p>
                 <img src={oneZeroSeven} class="image" ></img>
             </div> */}
             <div class="card">
-            <p>109</p>
-                <button onClick={()=>set109(!oneZeroNine1)}>3 Bedroom</button>
-                <p></p>
+            <p class="title">109 E. John</p>
+                <button class="button" onClick={()=>set109(!oneZeroNine1)}>3 Bedroom</button>
+                <p class="title"></p>
                 <img src={oneZeroNine} class="image" ></img>
                 {
                     oneZeroNine1?<table class="styled-table">
@@ -497,6 +545,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$549.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$570.80</td>
@@ -514,9 +566,9 @@ function PredictionPage() {
                 }
             </div>
             <div class="card">
-            <p>110</p>
-                <button onClick={()=>set110(!oneTen1)}>1 Bedroom</button>
-                <p></p>
+            <p class="title">110 S. Gregory</p>
+                <button class="button" onClick={()=>set110(!oneTen1)}>1 Bedroom</button>
+                <p class="title"></p>
                 <img src={oneTen} class="image" ></img>
                 {
                     oneTen1?<table class="styled-table">
@@ -527,6 +579,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$685.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$707.13</td>
@@ -544,9 +600,9 @@ function PredictionPage() {
                 }
             </div>
             <div class="card">
-            <p>201</p>
-                <button onClick={()=>set201(!twoZeroOne1)}>1 Bedroom</button>
-                <p></p>
+            <p class="title">201 S. Wright</p>
+                <button class="button" onClick={()=>set201(!twoZeroOne1)}>1 Bedroom</button>
+                <p class="title"></p>
                 <img src={twoZeroOne} class="image" ></img>
                 {
                     twoZeroOne1?<table class="styled-table">
@@ -557,6 +613,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$1040.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$1072.25</td>
@@ -574,9 +634,9 @@ function PredictionPage() {
                 }
             </div>
             <div class="card">
-            <p>203</p>
-                <button onClick={()=>set203(!twoZeroThree1)}>1 Bedroom</button>
-                <p></p>
+            <p class="title">203 E. Stoughton</p>
+                <button class="button" onClick={()=>set203(!twoZeroThree1)}>1 Bedroom</button>
+                <p class="title"></p>
                 <img src={twoZeroThree} class="image" ></img>
                 {
                     twoZeroThree1?<table class="styled-table">
@@ -587,6 +647,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$800.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$826.36</td>
@@ -605,9 +669,9 @@ function PredictionPage() {
             </div>
 
             <div class="card">
-            <p>207</p>
-                <button onClick={()=>set207(!twoZeroSeven1)}>4 Bedroom</button>
-                <p></p>
+            <p class="title">207 E. Green</p>
+                <button class="button" onClick={()=>set207(!twoZeroSeven1)}>4 Bedroom</button>
+                <p class="title"></p>
                 <img src={twoZeroSeven} class="image" ></img>
                 {
                     twoZeroSeven1?<table class="styled-table">
@@ -618,6 +682,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$389.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$406.33</td>
@@ -635,9 +703,9 @@ function PredictionPage() {
                 }
             </div>
             <div class="card">
-            <p>301</p>
-                <button onClick={()=>set301(!threeZeroOne1)}>4 Bedroom</button>
-                <p></p>
+            <p class="title">301 S. Water</p>
+                <button class="button" onClick={()=>set301(!threeZeroOne1)}>4 Bedroom</button>
+                <p class="title"></p>
                 <img src={threeZeroOne} class="image" ></img>
                 {
                     threeZeroOne1?<table class="styled-table">
@@ -648,6 +716,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$1040.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$1072.25</td>
@@ -664,14 +736,14 @@ function PredictionPage() {
                     </table>:null
                 }
             </div>
-            <div class="card">
-            <p>302</p>
+            {/* <div class="card">
+            <p class="title">302</p>
                 <img src={threeZeroTwo} class="image" ></img>
-            </div>
+            </div> */}
             <div class="card">
-            <p>305</p>
-                <button onClick={()=>set305(!threeZeroFive1)}>3 Bedroom</button>
-                <p></p>
+            <p class="title">305 E. Green</p>
+                <button class="button" onClick={()=>set305(!threeZeroFive1)}>3 Bedroom</button>
+                <p class="title"></p>
                 <img src={threeZeroFive} class="image" ></img>
                 {
                     threeZeroFive1?<table class="styled-table">
@@ -682,6 +754,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$509.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$528.71</td>
@@ -698,86 +774,86 @@ function PredictionPage() {
                     </table>:null
                 }
             </div>
-            <div class="card">
-            <p>308</p>
+            {/* <div class="card">
+            <p class="title">308</p>
                 <img src={threeZeroEight} class="image" ></img>
             </div>
             <div class="card">
-            <p>311</p>
+            <p class="title">311</p>
                 <img src={threeEleven} class="image" ></img>
             </div>
             <div class="card">
-            <p>401</p>
+            <p class="title">401</p>
                 <img src={fourZeroOne} class="image" ></img>
             </div>
             <div class="card">
-            <p>403</p>
+            <p class="title">403</p>
                 <img src={fourZeroThree} class="image" ></img>
             </div>
             <div class="card">
-            <p>405</p>
+            <p class="title">405</p>
                 <img src={fourZeroFive} class="image" ></img>
             </div>
             <div class="card">
-            <p>406</p>
+            <p class="title">406</p>
                 <img src={fourZeroSix} class="image" ></img>
             </div>
             <div class="card">
-            <p>408 South</p>
+            <p class="title">408 South</p>
                 <img src={fourZeroEightS} class="image" ></img>
             </div>
             <div class="card">
-            <p>408 West</p>
+            <p class="title">408 West</p>
                 <img src={fourZeroEightW} class="image" ></img>
             </div>
             <div class="card">
-            <p>508</p>
+            <p class="title">508</p>
                 <img src={fiveZeroEight} class="image" ></img>
             </div>
             <div class="card">
-            <p>510</p>
+            <p class="title">510</p>
                 <img src={fiveTen} class="image" ></img>
             </div>
             <div class="card">
-            <p>601</p>
+            <p class="title">601</p>
                 <img src={sixZeroOne} class="image" ></img>
             </div>
             <div class="card">
-            <p>601 South</p>
+            <p class="title">601 South</p>
                 <img src={sixZeroOneS} class="image" ></img>
             </div>
             <div class="card">
-            <p>603</p>
+            <p class="title">603</p>
                 <img src={sixZeroThree} class="image" ></img>
             </div>
             <div class="card">
-            <p>604</p>
+            <p class="title">604</p>
                 <img src={sixZeroFour} class="image" ></img>
             </div>
             <div class="card">
-            <p>605</p>
+            <p class="title">605</p>
                 <img src={sixZeroFive} class="image" ></img>
             </div>
             <div class="card">
-            <p>607</p>
+            <p class="title">607</p>
                 <img src={sixZeroSeven} class="image" ></img>
             </div>
             <div class="card">
-            <p>700</p>
+            <p class="title">700</p>
                 <img src={sevenHundred} class="image" ></img>
             </div>
             <div class="card">
-            <p>701</p>
+            <p class="title">701</p>
                 <img src={sevenZeroOne} class="image" ></img>
             </div>
             <div class="card">
-            <p>707</p>
+            <p class="title">707</p>
                 <img src={sevenZeroSeven} class="image" ></img>
-            </div>
+            </div> */}
             <div class="card">
-            <p>803</p>
-                <button onClick={()=>set803(!eightZeroThree1)}>2 Bedroom</button>
-                <p></p>
+            <p class="title">803 W. Green</p>
+                <button class="button" onClick={()=>set803(!eightZeroThree1)}>2 Bedroom</button>
+                <p class="title"></p>
                 <img src={eightZeroThree} class="image" ></img>
                 {
                     eightZeroThree1?<table class="styled-table">
@@ -788,6 +864,10 @@ function PredictionPage() {
                             </tr>
                         </thead>
                         <tbody>
+                            <tr>
+                                <td>2022</td>
+                                <td>$509.00</td>
+                            </tr>
                             <tr>
                                 <td>2023</td>
                                 <td>$529.56</td>
@@ -804,18 +884,18 @@ function PredictionPage() {
                     </table>:null
                 }
             </div>
-            <div class="card">
-            <p>903</p>
+            {/* <div class="card">
+            <p class="title">903</p>
                 <img src={nineZeroThree} class="image" ></img>
             </div>
             <div class="card">
-            <p>913</p>
+            <p class="title">913</p>
                 <img src={nineOneThree} class="image" ></img>
             </div>
             <div class="card">
-            <p>1103</p>
+            <p class="title">1103</p>
                 <img src={elevenZeroThree} class="image" ></img>
-            </div>
+            </div> */}
 	    </div>
     </div>
   )

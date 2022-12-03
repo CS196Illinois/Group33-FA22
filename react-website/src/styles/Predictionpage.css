@@ -76,3 +76,18 @@
       grid-template-columns: 1fr;
     }
   }
+
+  .button {
+    background-color: white;
+    color: #040404;
+    margin-bottom: 10px;
+  }
+
+  .button:hover {
+    background-color: rgb(1, 1, 1);
+    color: #ffffff;
+  }
+
+  .title {
+    font-weight: bold;
+  }
